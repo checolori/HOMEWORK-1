@@ -1,0 +1,35 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Mocha Tests</title>
+    <link href="https://unpkg.com/mocha@4.0.1/mocha.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css"  href="style/style.css" />
+</head>
+<body>
+
+
+  <!-- YOUR HTML HERE -->
+  <!-- 10. here is a IMG element with the id `inn`-->
+<img id="inn" src="http://www.panamacitybeachhomesforsale.com/wp-content/uploads/2016/12/House_Cleaning_service_Great_falls_Virginia.jpg">
+
+<!-- There is a IMG element with the id `dagger`-->
+<img id="dagger" src="http://www.stile.it/wp-content/uploads/2017/02/iStock-157617977-e1487960726588.jpg">
+
+<!-- There is a IMG element with the id `bag` -->
+<img id="bag" src="http://www.interplas.com/product_images/trash-bags/8-10-Gallon-Black-24-x-30-Drawstring-Trash-Bags-1000px.jpg">
+
+
+
+  <!-- I RECOMMEND YOU LEAVE THE REST UNTOUCHED -->
+  <button onclick="mocha.checkLeaks(); mocha.run();">Run the tests!</button>
+  <div id="mocha"></div>
+
+  <script src="https://unpkg.com/chai@4.1.2/chai.js"></script>
+  <script src="https://unpkg.com/mocha@4.0.1/mocha.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sinon@3/pkg/sinon.js"></script>
+  <script>mocha.setup('bdd')</script>
+  <script src="YOUR_JAVASCRIPT_HERE.js"></script>
+  <script src="game_logic.test.js"></script>
+
+</body>
+</html>
